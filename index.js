@@ -13,4 +13,11 @@ exports.checkToken = async function checkToken(target) {
     } else if (res.data.id) {
         return { result : res.data }
     }
+};
+exports.getOauth2URL = async function getOauth2URL(target) {
+    const app_id = target.client_id || target.app_id || target.application_id
+    if (!app_id) return { result : "Missing application ID" }
+    const redirect_url = redirect_url || callback_url || redirect || callback
+    const url = `${rootURL}/oauth2/authorize?app_id=${app_id}&redirect_url=${redirect_url}`
+    return { result : url }
 }
