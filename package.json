@@ -1,14 +1,19 @@
 {
   "name": "letmeauth",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "",
+  "homepage": "letmeauth.xyz/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "url": "github.com/petertuananhdev/letmeauth"
+  },
   "dependencies": {
     "axios": "^0.27.2"
   }
+  
 }

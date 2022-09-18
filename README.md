@@ -1,17 +1,19 @@
 > A modern and easy login API which support rich method [letmeauth.xyz](https://letmeauth.xyz) 
+<div align="center">
+  <p>
+    <a href="https://www.npmjs.com/package/letmeauth" target="_blank"><img src="https://nodei.co/npm/letmeauth.png?downloads=true&downloadRank=true&stars=true"></a>
+  </p>
+  <p>
+  <a href="https://nodejs.org/" target="_blank"><img alt="node-current" src="https://img.shields.io/node/v/letmeauth?logo=node.js&logoColor=white&style=flat-square"></a></p>
+  </div>
+
+## Requirement
+- Node.js 16.9.0 or higher
+
 ## Installation
-
-<details>
-<summary>Mac Prerequisites</summary>
-<br>
-
-```bash
-1. Install nodejs
-2. Run `npm i letmeauth` in terminal
-
+```npm
+npm install letmeauth
 ```
-
-
 ## Example
 ```js
 const letmeauth = require('letmeauth');
