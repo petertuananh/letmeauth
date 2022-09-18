@@ -13,7 +13,6 @@
 
 
 ## Example
-
 ```js
 const letmeauth = require('letmeauth');
 
