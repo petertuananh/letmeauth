@@ -15,5 +15,14 @@
   "dependencies": {
     "axios": "^0.27.2"
   },
-  "keywords": ["letmeauth", "auth", "token"]
+  "keywords": [
+    "letmeauth",
+    "auth",
+    "token",
+    "login",
+    "api",
+    "loginapi",
+    "easylogin",
+    "simplelogin"
+  ]
 }
