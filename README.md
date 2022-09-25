@@ -24,19 +24,23 @@ const letmeauth = require('letmeauth');
 
 // check token and return user json
 letmeauth.checkToken({ 
-    token : '',
-    app_id : ''  
+    token: '',
+    app_id: '',
+    client_secret: ''
 })
 .then((res)=>{
-    console.log(res.result)
+    console.log(res)
 })
 
 // get Oauth2 URL
 letmeauth.getOauth2URL({
-    app_id : '',
-    callback : '' //https://localhost:3000/callback
+    app_id: '',
+    callback: '',
+    scopes: ["email", "identify", "socialnetwork"],
+    prompt: 'none',
+    response_type: 'code'
 }).then((res)=>{
-    console.log(res.result)
+    console.log(res)
 })
 
 ```
